@@ -1,0 +1,23 @@
+.load-more {
+  justify-items: center;
+}
+
+.load-more-btn {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 0;
+  @include font-lato;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  background-color: transparent;
+  color: #424551;
+  border: none;
+  @include cursor-pointer;
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,24 @@
+@import "mixins";
+@import "variables";
+@import "header";
+@import "filters";
+@import "cards";
+@import "buttons";
+
+body {
+  @include font-lato;
+  color: $text-color;
+  @include margin;
+
+  background-image: url("/src/assets/el-1.svg"), url("/src/assets/el-2.svg"),
+    url("/src/assets/el-3.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: calc(100% + 40px) 50px, 56px 38%, calc(100% - 72px) 63%;
+  background-size: 144px, 82px, 85px;
+}
+.container {
+  width: 90%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 50px 16px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/online-courses/assets/icon-DKnOJlSF.svg" />
+    <script type="module" crossorigin src="/online-courses/assets/index-u3IUsSrG.js"></script>
+    <link rel="stylesheet" crossorigin href="/online-courses/assets/index-CnaVeAFc.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h3 class="header__text">Enjoy your studying!</h3>
+        <h2 class="header__title">Our online courses</h2>
+      </header>
+      <div class="filters">
+        <div class="filters__nav">
+          <button class="filters__button" data-filter="All">
+            All <span class="filters__count" data-course="All"></span>
+          </button>
+          <button class="filters__button" data-filter="Marketing">
+            Marketing
+            <span class="filters__count" data-course="Marketing"></span>
+          </button>
+          <button class="filters__button" data-filter="Management">
+            Management
+            <span class="filters__count" data-course="Management"></span>
+          </button>
+          <button class="filters__button" data-filter="HR & Recruting">
+            HR & Recruting
+            <span class="filters__count" data-course="HR & Recruting"></span>
+          </button>
+          <button class="filters__button" data-filter="Design">
+            Design <span class="filters__count" data-course="Design"></span>
+          </button>
+          <button class="filters__button" data-filter="Development">
+            Development
+            <span class="filters__count" data-course="Development"></span>
+          </button>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search course..."
+          />
+          <img
+            src="data:image/svg+xml,%3csvg%20width='15'%20height='15'%20viewBox='0%200%2015%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M6.41667%201.33333C3.60922%201.33333%201.33333%203.60922%201.33333%206.41667C1.33333%209.22411%203.60922%2011.5%206.41667%2011.5C7.81926%2011.5%209.08811%2010.9328%2010.0085%2010.0137C10.9307%209.09288%2011.5%207.82189%2011.5%206.41667C11.5%203.60922%209.22411%201.33333%206.41667%201.33333ZM0%206.41667C0%202.87284%202.87284%200%206.41667%200C9.96049%200%2012.8333%202.87284%2012.8333%206.41667C12.8333%207.94947%2012.2952%209.35754%2011.3986%2010.4609L14.1376%2013.1948C14.3982%2013.4549%2014.3986%2013.877%2014.1385%2014.1376C13.8784%2014.3982%2013.4563%2014.3986%2013.1957%2014.1385L10.4553%2011.4032C9.35281%2012.297%207.94689%2012.8333%206.41667%2012.8333C2.87284%2012.8333%200%209.96049%200%206.41667Z'%20fill='%239A9CA5'/%3e%3c/svg%3e"
+            alt="search icon"
+            class="search__icon"
+          />
+        </div>
+      </div>
+      <section class="cards"></section>
+      <div class="load-more">
+        <button class="load-more-btn">
+          <span class="load-more-btn__icon">
+            <img src="data:image/svg+xml,%3csvg%20width='22'%20height='20'%20viewBox='0%200%2022%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1%200C1.55228%200%202%200.447715%202%201V5.43632C3.65803%202.20928%207.01998%200%2010.9%200C15.2556%200%2018.9584%202.78413%2020.3307%206.66675C20.5147%207.18747%2020.2418%207.75879%2019.7211%207.94284C19.2004%208.12689%2018.6291%207.85396%2018.445%207.33325C17.3463%204.22472%2014.3817%202%2010.9%202C7.93996%202%205.35365%203.60799%203.96994%206H6.99996C7.55225%206%207.99996%206.44772%207.99996%207C7.99996%207.55228%207.55225%208%206.99996%208H1C0.447715%208%200%207.55228%200%207V1C0%200.447715%200.447715%200%201%200Z'%20fill='%23424551'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M2.07703%2012.0572C2.59775%2011.8731%203.16907%2012.146%203.35312%2012.6668C4.45183%2015.7753%207.41647%2018%2010.8982%2018C13.8582%2018%2016.4445%2016.392%2017.8282%2014H14.7982C14.2459%2014%2013.7982%2013.5523%2013.7982%2013C13.7982%2012.4477%2014.2459%2012%2014.7982%2012H20.7981C21.3504%2012%2021.7981%2012.4477%2021.7981%2013V19C21.7981%2019.5523%2021.3504%2020%2020.7981%2020C20.2459%2020%2019.7981%2019.5523%2019.7981%2019V14.5637C18.1401%2017.7907%2014.7782%2020%2010.8982%2020C6.54254%2020%202.83975%2017.2159%201.46744%2013.3332C1.28339%2012.8125%201.55632%2012.2412%202.07703%2012.0572Z'%20fill='%23424551'/%3e%3c/svg%3e" alt="load more icon" />
+          </span>
+          Load more
+        </button>
+      </div>
+    </div>
+
+  </body>
+</html>

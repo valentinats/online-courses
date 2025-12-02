@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/icon.svg" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h3 class="header__text">Enjoy your studying!</h3>
+        <h2 class="header__title">Our online courses</h2>
+      </header>
+      <div class="filters">
+        <div class="filters__nav">
+          <button class="filters__button" data-filter="All">
+            All <span class="filters__count" data-course="All"></span>
+          </button>
+          <button class="filters__button" data-filter="Marketing">
+            Marketing
+            <span class="filters__count" data-course="Marketing"></span>
+          </button>
+          <button class="filters__button" data-filter="Management">
+            Management
+            <span class="filters__count" data-course="Management"></span>
+          </button>
+          <button class="filters__button" data-filter="HR & Recruting">
+            HR & Recruting
+            <span class="filters__count" data-course="HR & Recruting"></span>
+          </button>
+          <button class="filters__button" data-filter="Design">
+            Design <span class="filters__count" data-course="Design"></span>
+          </button>
+          <button class="filters__button" data-filter="Development">
+            Development
+            <span class="filters__count" data-course="Development"></span>
+          </button>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search course..."
+          />
+          <img
+            src="/src/assets/search-icon.svg"
+            alt="search icon"
+            class="search__icon"
+          />
+        </div>
+      </div>
+      <section class="cards"></section>
+      <div class="load-more">
+        <button class="load-more-btn">
+          <span class="load-more-btn__icon">
+            <img src="/src/assets/btn-icon.svg" alt="load more icon" />
+          </span>
+          Load more
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/scripts/filters.js"></script>
+  </body>
+</html>

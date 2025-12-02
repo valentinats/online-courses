@@ -1,0 +1,11 @@
+@mixin font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+@mixin margin {
+  margin: 0;
+}
+
+@mixin cursor-pointer {
+  cursor: pointer;
+}
