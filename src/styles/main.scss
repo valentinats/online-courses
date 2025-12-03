@@ -10,8 +10,8 @@ body {
   color: $text-color;
   @include margin;
 
-  background-image: url("/src/assets/el-1.svg"), url("/src/assets/el-2.svg"),
-    url("/src/assets/el-3.svg");
+  background-image: url("/assets/el-1.svg"), url("/assets/el-2.svg"),
+    url("/assets/el-3.svg");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: calc(100% + 40px) 50px, 56px 38%, calc(100% - 72px) 63%;
   background-size: 144px, 82px, 85px;
